@@ -1,6 +1,6 @@
-	on:
+on:
   schedule:
-    - cron: "*/5 * * * *"  # 每 5 分鐘運行一次
+    - cron: "*/5 1-5 * * 1-5"  # 每 5 分鐘運行一次
 
 jobs:
   build:
